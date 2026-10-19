@@ -1,5 +1,5 @@
 services:
-    todoappdb:
+  todoappdb:
     build:
       context: ./db
     container_name: todoappdb
@@ -18,7 +18,7 @@ services:
       timeout: 5s
       retries: 10
 
-    todoapp:
+  todoapp:
     build:
       context: ./TodoApp
     container_name: todoapp
