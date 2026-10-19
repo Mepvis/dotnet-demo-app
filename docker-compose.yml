@@ -18,7 +18,7 @@ services:
       timeout: 5s
       retries: 10
 
-  todoapp:
+    todoapp:
     build:
       context: ./TodoApp
     container_name: todoapp
